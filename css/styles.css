@@ -22,13 +22,118 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 82px;
 }
 
 .title {
+  align-items: center;
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
   line-height: 32px;
+  text-align: center;
+  color: #512051;
+  width: 327px;
+  height: 102px;
 }
+
+.introduction {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 25px;
+  width: 327px;
+  height: 100px;
+  text-align: center;
+  color: #927B91;
+}
+
+.card-little {
+  width: 327px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9E8F8;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.stars {
+  width: 116.55px;
+  height: 15.77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rated {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #512051;
+  font-size: 17px;
+}
+
+.card-big {
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  background-color: #512051;
+  padding-left: 32px;
+  padding-top: 40px;
+  margin-bottom: 16px;
+}
+
+.avatar-container {
+  width: 162px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  margin-bottom: 23px;
+}
+
+.title-card{
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.buyer {
+  color: #EE69A4;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.text {
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  font-size: 17px;
+  width: 263px;
+  height: 110px;
+}
+
