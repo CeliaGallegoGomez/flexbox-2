@@ -26,6 +26,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 82px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .title {
@@ -93,7 +95,9 @@ body {
   border-radius: 8px;
   background-color: #512051;
   padding-left: 32px;
+  padding-right: 32px;
   padding-top: 40px;
+  padding-bottom: 35px;
   margin-bottom: 16px;
 }
 
