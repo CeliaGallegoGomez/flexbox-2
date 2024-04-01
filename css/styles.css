@@ -30,6 +30,23 @@ body {
   padding-right: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .first {
+    width: 1110px;
+    height: 245px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .texts {
+    width: 445px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
 .title {
   align-items: center;
   font-family: "League Spartan", sans-serif;
@@ -41,7 +58,6 @@ body {
   text-align: center;
   color: #512051;
   width: 327px;
-  height: 102px;
   margin-left: 15px;
 }
 
@@ -49,10 +65,10 @@ body {
   .title {
     font-size: 56px;
     width: 445px;
-    height: 154px;
     line-height: 48px;
     letter-spacing: -2px;
     text-align: start;
+    margin: 0;
   }
 }
 
@@ -75,10 +91,19 @@ body {
   .introduction {
     text-align: start;
     width: 445px;
-    height: 75px;
     text-align: start;
     line-height: 25px;
     letter-spacing: -0.63px;
+    margin: 0;
+  }
+}
+
+@media screen and(min-width:768px) {
+  .cards {
+    width: 540px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
@@ -100,6 +125,10 @@ body {
   .card-little {
     width: 445px;
     height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
   }
 }
 
@@ -120,6 +149,17 @@ body {
   font-size: 17px;
 }
 
+@media screen and (min-width: 768px) {
+  .second {
+    width: 1110px;
+    height: 266px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+  }
+}
+
 .card-big {
   width: 327px;
   height: 248px;
@@ -137,6 +177,7 @@ body {
   .card-big {
     width: 350px;
     height: 234px;
+    margin-left: 31px;
   }
 }
 
