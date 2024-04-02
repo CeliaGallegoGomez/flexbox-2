@@ -24,6 +24,15 @@ body {
   font-family: sans-serif;
 }
 
+@media screen and (min-width:768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:118px
+  }
+}
+
 @media screen and (min-width: 768px) {
   .first {
     width: 1110px;
@@ -89,6 +98,7 @@ body {
     line-height: 25px;
     letter-spacing: -0.63px;
     margin: 0;
+    padding-top: 16px;
   }
 }
 
@@ -97,7 +107,7 @@ body {
     width: 540px;
     height: 200px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 }
 
@@ -124,6 +134,22 @@ body {
     justify-content: space-around;
     margin: 0;
   }
+
+  .cl-1 {
+    position: relative;
+  }
+
+  .cl-2 {
+    position: absolute;
+    top: 190px;
+    left: 970px;
+  }
+
+  .cl-3 {
+    position: absolute;
+    top:260px;
+    left: 1025px;
+  }
 }
 
 .stars {
@@ -147,10 +173,7 @@ body {
   .second {
     width: 1110px;
     height: 266px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: space-around;
+    margin-top: 71px;
   }
 }
 
@@ -173,6 +196,23 @@ body {
     height: 234px;
     margin-left: 31px;
   }
+
+  .cb-1 {
+    position: relative;
+  }
+
+  .cb-2 {
+    position:absolute;
+    top:450px;
+    left:675px;
+  }
+
+  .cb-3 {
+    position:absolute;
+    top:467px;
+    left:1055px;
+  }
+
 }
 
 .avatar-container {
@@ -183,6 +223,12 @@ body {
   align-items: center;
   margin-bottom: 23px;
   gap: 23px;
+}
+
+@media screen and (min-width:768px) {
+  .avatar-container {
+    width: 166px;
+  }
 }
 
 .title-card {
